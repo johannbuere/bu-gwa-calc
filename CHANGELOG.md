@@ -7,9 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-01-13
+
 ### Added
 
 - Initial Next.js project setup with TypeScript and Tailwind CSS
 - Basic project structure and configuration files
 
-[unreleased]: https://github.com/YOUR_USERNAME/YOUR_REPO/compare/v0.1.0...HEAD
+[unreleased]: https://github.com/johannbuere/bu-gwa-calculator/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/johannbuere/calculator/releases/tag/v0.1.0
