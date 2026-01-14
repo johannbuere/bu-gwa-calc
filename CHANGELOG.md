@@ -7,9 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-01-14
+
 ### Added
 
-- Navbar component (planned)
+- Navbar component with navigation links and theme toggle slider UI
+- Footer component with logo, navigation links, GitHub link, Buy Me a Coffee button, and disclaimer
+- Responsive layout structure for navbar and footer
+- Theme toggle slider UI (functionality to be implemented)
+- Top shadow effect on footer
+
+### Changed
+
+- Updated page routing structure with About, Roadmap, and Disclaimer pages
+- Enhanced README with Getting Started guide and installation instructions
+- Fixed font configuration in globals.css (changed from serif to sans for Inter font)
 
 ## [0.1.2] - 2026-01-14
 
@@ -36,7 +48,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial Next.js project setup with TypeScript and Tailwind CSS
 - Basic project structure and configuration files
 
-[unreleased]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.1.2...HEAD
+[unreleased]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.1.2...v0.2.0
 [0.1.2]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/johannbuere/bu-gwa-calc/releases/tag/v0.1.0
