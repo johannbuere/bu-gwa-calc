@@ -49,18 +49,4 @@ Start the development server:
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
-
-### Building for Production
-
-Build the application:
-
-```bash
-npm run build
-```
-
-Start the production server:
-
-```bash
-npm start
-```
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the app
