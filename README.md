@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://www.buymeacoffee.com/johannbuere">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50" />
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="40" />
   </a>
 </p>
 
