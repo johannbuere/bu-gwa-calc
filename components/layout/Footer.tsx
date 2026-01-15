@@ -50,16 +50,16 @@ export default function Footer() {
               About
             </Link>
             <Link
-              href="/roadmap"
-              className="text-foreground hover:text-primary"
-            >
-              Roadmap
-            </Link>
-            <Link
               href="/disclaimer"
               className="text-foreground hover:text-primary"
             >
               Disclaimer
+            </Link>
+            <Link
+              href="/roadmap"
+              className="text-foreground hover:text-primary"
+            >
+              Roadmap
             </Link>
           </nav>
         </div>

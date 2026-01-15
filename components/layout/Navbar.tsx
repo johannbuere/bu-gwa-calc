@@ -50,19 +50,26 @@ export default function Navbar() {
         <div className="flex flex-row items-center gap-2">
           <Link
             href="/"
-            className="text-muted text-sm font-normal px-4 py-2 hover:rounded-lg hover:bg-muted hover:text-foreground"
+            className="text-muted text-sm font-medium px-4 py-2 hover:rounded-lg hover:bg-muted hover:text-foreground"
           >
             Calculator
           </Link>
           <Link
             href="/about"
-            className="text-muted text-sm font-normal px-4 py-2 hover:rounded-lg hover:bg-muted hover:text-foreground"
+            className="text-muted text-sm font-medium px-4 py-2 hover:rounded-lg hover:bg-muted hover:text-foreground"
           >
             About
           </Link>
           <Link
+            href="/disclaimer"
+            className="text-muted text-sm font-medium px-4 py-2 hover:rounded-lg hover:bg-muted hover:text-foreground"
+          >
+            Disclaimer
+          </Link>
+
+          <Link
             href="/roadmap"
-            className="text-muted text-sm font-normal px-4 py-2 hover:rounded-lg hover:bg-muted hover:text-foreground"
+            className="text-muted text-sm font-medium px-4 py-2 hover:rounded-lg hover:bg-muted hover:text-foreground"
           >
             Roadmap
           </Link>

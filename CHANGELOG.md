@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.3] - 2026-01-15
+
+### Changed
+
+- Swapped routing links between pages at navbar and footer
+
 ## [0.2.2] - 2026-01-15
 
 ### Added
