@@ -1,7 +1,7 @@
 <br />
 
 <p align="center">
-  <img src="docs/screenshots/bu-gwa-calc.png" alt="BU GWA Calc Logo" width="200" />
+  <img src="public\images\logo.png" alt="BU GWA Calc Logo" width="200" />
 </p>
 
 <h1 align="center">BU GWA Calculator</h1>

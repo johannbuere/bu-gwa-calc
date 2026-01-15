@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.2] - 2026-01-15
+
+### Added
+
+- Version of web app beside the logos at navbar and footer
+
+### Changed
+
+- Rerouted path of logo at README.md to logo at public
+
+### Removed
+
+- Docs folder containing the logo of the web app for README.md
+
 ## [0.2.1] - 2026-01-14
 
 ### Added
@@ -56,7 +70,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial Next.js project setup with TypeScript and Tailwind CSS
 - Basic project structure and configuration files
 
-[unreleased]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.1...HEAD
+[unreleased]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.2...HEAD
+[0.2.2]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.1.2...v0.2.0
 [0.1.2]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.1.1...v0.1.2

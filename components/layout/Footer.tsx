@@ -9,14 +9,17 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-8">
           {/* logo */}
           <div>
-            <Link href="/">
-              <Image
-                src="/images/logo-horizontal.png"
-                alt="BU GWA Calculator Logo"
-                width={250}
-                height={50}
-              />
-            </Link>
+            <div className="flex items-center gap-3">
+              <Link href="/">
+                <Image
+                  src="/images/logo-horizontal.png"
+                  alt="BU GWA Calculator Logo"
+                  width={250}
+                  height={50}
+                />
+              </Link>
+              <span className="text-primary text-sm font-bold">v0.2.1</span>
+            </div>
             <p className="text-base text-gray-600 mt-2 mb-6">
               An open-source GWA calculator built for Bicol University students
               to easily compute their grades
