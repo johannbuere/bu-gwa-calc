@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.4] - 2026-01-16
+
+### Added
+
+- Announcement component
+
 ## [0.2.3] - 2026-01-15
 
 ### Changed
@@ -76,7 +82,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial Next.js project setup with TypeScript and Tailwind CSS
 - Basic project structure and configuration files
 
-[unreleased]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.2...HEAD
+[unreleased]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.4...HEAD
+[0.2.4]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.3...v0.2.4
+[0.2.3]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.2...v0.2.3
 [0.2.2]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.1.2...v0.2.0
