@@ -35,13 +35,23 @@ export default function Navbar() {
       <div className="relative z-10 flex items-center justify-between w-full">
         <div className="flex items-center gap-3">
           <Link href="/">
+            {/* Mobile logo */}
+            <Image
+              src="/images/logo.png"
+              alt="BU GWA Calculator Logo"
+              width={50}
+              height={50}
+              priority
+              className="h-8 w-auto md:hidden"
+            />
+            {/* Desktop logo */}
             <Image
               src="/images/logo-horizontal.png"
               alt="BU GWA Calculator Logo"
               width={150}
               height={50}
               priority
-              className="h-8 w-auto md:h-12"
+              className="hidden h-8 w-auto md:block md:h-12"
             />
           </Link>
           <span className="text-muted text-sm font-bold">v0.2.1</span>

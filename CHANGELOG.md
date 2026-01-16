@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-01-17
+
+### Added
+
+- Unified controls for adding, resetting, selecting, importing, and exporting academic years.
+- Automatic saving of calculator progress with a specific "Save" action.
+- Separate views for "Current Workspace" and "Saved Data" with ability to restore backups.
+- Visual card displaying backup details (Date, GWA, Units) in the Saved view.
+- JSON file support for backing up individual Semesters, Academic Years, or the entire Education Overview.
+- Responsive layout adjustments for Subject Items and Action Bars (icon-only mode on small screens).
+
+### Changed
+
+- Removed the floating "Add an Academic Year" button at the bottom of the list.
+- Improved empty states for Semesters and the main Calculator area.
+- Enhanced UX with click-outside behavior for dropdown menus.
+
 ## [0.2.4] - 2026-01-16
 
 ### Added
@@ -82,7 +99,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial Next.js project setup with TypeScript and Tailwind CSS
 - Basic project structure and configuration files
 
-[unreleased]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.4...HEAD
+[unreleased]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.4...v0.3.0
 [0.2.4]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.3...v0.2.4
 [0.2.3]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.2...v0.2.3
 [0.2.2]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.1...v0.2.2
