@@ -19,3 +19,10 @@ export interface AcademicYear {
     name: string; // e.g., "2025-2026"
     semesters: Semester[];
 }
+
+export interface Session {
+    id: string;
+    createdAt: number;
+    name?: string;
+    academicYears: AcademicYear[];
+}

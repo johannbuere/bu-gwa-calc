@@ -170,7 +170,7 @@ export default function AcademicYearCard({
   };
 
   return (
-    <div className="w-full bg-white border border-gray-300 rounded-xl shadow-sm mb-6">
+    <div className="w-full bg-white border border-foreground rounded-lg shadow-sm mb-6">
       <input
         type="file"
         ref={fileInputRef}
@@ -179,8 +179,13 @@ export default function AcademicYearCard({
         accept=".json"
       />
       {/* Header */}
-      <div className="flex items-center justify-between px-6 py-4 bg-backup-black text-white rounded-t-xl">
-        <div className="flex items-center gap-4">
+      <div
+        className={`flex border-b border-gray-300 items-center justify-between px-3 py-3 sm:px-6 sm:py-4 bg-white
+          text-white ${
+          isExpanded ? "rounded-t-xl" : "rounded-lg"
+        }`}
+      >
+        <div className="flex items-center gap-2 sm:gap-4">
           {isGlobalSelectMode ? (
             <input
               type="checkbox"
@@ -193,7 +198,7 @@ export default function AcademicYearCard({
               onClick={() => setIsExpanded(!isExpanded)}
               className="p-1 hover:bg-white/10 rounded transition-colors"
             >
-              {isExpanded ? <MenuLeft /> : <SquareMenu className="w-6 h-6" />}
+              {isExpanded ? <MenuLeft className="fill-foreground" /> : <SquareMenu className="stroke-foreground" />}
             </button>
           )}
           {/* Academic Year Selector using custom UI instead of native select */}
@@ -204,7 +209,7 @@ export default function AcademicYearCard({
                 onBlur={() =>
                   setTimeout(() => setIsYearDropdownOpen(false), 200)
                 } // Delay to allow click
-                className="flex items-center gap-2 bg-white/10 hover:bg-white/20 px-3 py-1.5 rounded-lg border border-white/20 transition-colors font-bold tracking-wide"
+                className="flex items-center gap-2 bg-foreground hover:bg-backup-black px-2 py-1.5 sm:px-3 rounded-lg border border-foreground transition-colors font-bold tracking-wide text-sm sm:text-base"
               >
                 {academicYear.name}
                 <NavArrowDown
@@ -244,6 +249,10 @@ export default function AcademicYearCard({
               )}
             </div>
           </div>
+          {/* Semester Count Badge */}
+          <div className="text-backup-black px-2 py-1.5 sm:px-3 rounded-lg border border-backup-black font-bold text-sm shadow-sm whitespace-nowrap">
+            {academicYear.semesters.length}<span className="hidden sm:inline"> Semesters</span>
+          </div>
         </div>
 
         <div className="flex items-center gap-2">
@@ -281,7 +290,7 @@ export default function AcademicYearCard({
             <button
               ref={triggerRef}
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className={`flex items-center gap-1 px-3 py-2 hover:bg-gray-100 text-sm font-semibold ${
+              className={`flex items-center gap-1 px-2 py-1.5 sm:px-3 sm:py-2 hover:bg-gray-100 text-sm font-semibold ${
                 isExpanded ? "hover:rounded-r-lg" : "hover:rounded-lg"
               }`}
             >
@@ -339,7 +348,7 @@ export default function AcademicYearCard({
 
       {/* Body */}
       {isExpanded && (
-        <div className="p-4 sm:p-6 bg-muted/30">
+        <div className="p-4 sm:p-6 border-t border-foreground bg-muted/30">
           {academicYear.semesters.length === 0 ? (
             <div className="text-center py-10 text-gray-400">
               <p>No semesters added yet.</p>
@@ -374,14 +383,6 @@ export default function AcademicYearCard({
         </div>
       )}
 
-      {/* Footer Info if collapsed? Or maybe summary. Design doesn't show much when collapsed but menu icon changes. */}
-      {!isExpanded && (
-        <div className="px-6 py-4 flex items-center justify-between bg-gray-50 rounded-b-xl">
-          <span className="font-semibold text-gray-700">
-            {academicYear.semesters.length} Semesters
-          </span>
-        </div>
-      )}
     </div>
   );
 }
