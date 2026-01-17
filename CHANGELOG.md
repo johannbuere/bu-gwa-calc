@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Move Buy Me COffee embed to a donation modal popup for other donations
+- Move Buy Me Coffee embed to a donation modal popup for other donations
 
 ### Removed
 
@@ -23,14 +23,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Added ui componnet folder
+- Added ui component folder
 - Added two color of gray color variables in css
 - Implemented Latin Honor Gwa Calculator
 
 ### Changed
 
 - Spread out code to ui components like notifications and cards
--
 
 ## [0.4.0] - 2026-01-17
 
@@ -135,7 +134,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial Next.js project setup with TypeScript and Tailwind CSS
 - Basic project structure and configuration files
 
-[unreleased]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.4.0...HEAD
+[unreleased]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.5.0...HEAD
+[0.5.0]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.4.0...v0.5.0
+[0.5.0]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.4...v0.3.0
 [0.2.4]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.3...v0.2.4
