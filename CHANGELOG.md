@@ -9,7 +9,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Latin Gwa Calculator
+- Add functionality to other pages in navbar (About, Disclaimer, etc...)
+
+### Changed
+
+- Move Buy Me COffee embed to a donation modal popup for other donations
+
+### Removed
+
+- Remove Buy Me Coffee embed
+
+## [0.5.0] - 2026-01-17
+
+### Added
+
+- Added ui componnet folder
+- Added two color of gray color variables in css
+- Implemented Latin Honor Gwa Calculator
+
+### Changed
+
+- Spread out code to ui components like notifications and cards
+-
 
 ## [0.4.0] - 2026-01-17
 
@@ -21,7 +42,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Moved fill property from path tag to svg tag to handle color changes
-
 
 ## [0.3.0] - 2026-01-17
 
@@ -116,7 +136,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Basic project structure and configuration files
 
 [unreleased]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.4.0...HEAD
-[0.4.0]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.3.0...v0.4.0 
+[0.4.0]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.4...v0.3.0
 [0.2.4]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.3...v0.2.4
 [0.2.3]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.2.2...v0.2.3

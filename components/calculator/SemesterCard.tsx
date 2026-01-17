@@ -18,6 +18,7 @@ import {
   Copy,
 } from "lucide-react";
 import NavArrowDown from "../icons/NavArrowDown";
+import { useNotification } from "../../components/ui/NotificationProvider";
 
 interface SemesterCardProps {
   semester: Semester;
@@ -44,6 +45,8 @@ export default function SemesterCard({
   const [selectedSubjects, setSelectedSubjects] = useState<Set<string>>(
     new Set()
   );
+
+  const { notify } = useNotification();
 
   const menuRef = useRef<HTMLDivElement>(null);
   const triggerRef = useRef<HTMLButtonElement>(null);
@@ -165,12 +168,13 @@ export default function SemesterCard({
         Array.isArray(importedData.subjects)
       ) {
         onUpdate({ ...semester, ...importedData, id: semester.id }); // Keep original ID
+        notify("Semester imported!", "success");
       } else {
-        alert("Invalid semester file");
+        notify("Invalid semester file", "error");
       }
     } catch (error) {
       console.error("Import error:", error);
-      alert("Failed to import file");
+      notify("Failed to import file", "error");
     }
 
     // Reset input
@@ -340,7 +344,7 @@ export default function SemesterCard({
           </div>
 
           {/* GWA Results Bar */}
-          <div className="mt-8 bg-gradient-to-r from-accent to-primary rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between text-white shadow-lg shadow-orange-200/50">
+          <div className="mt-8 bg-white border-2 border-primary rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between text-primary shadow-[4px_4px_0px_0px_var(--primary)]">
             <div className="text-xl font-medium">
               Your GWA is <span className="font-bold">{gwa.toFixed(4)}</span>{" "}
               with <span className="font-bold">{totalUnits} units</span>
@@ -353,11 +357,12 @@ export default function SemesterCard({
                     4
                   )} with ${totalUnits} units`;
                   navigator.clipboard.writeText(text);
+                  notify("Result copied to clipboard!", "success");
                 }}
-                className="bg-white/20 hover:bg-white/30 p-2 rounded-lg transition-colors backdrop-blur-sm group"
+                className="bg-gray-100 hover:bg-primary p-2 rounded-lg transition-colors border border-primary group"
                 title="Copy to clipboard"
               >
-                <Copy/>
+                <Copy size={18} className="text-primary group-hover:text-white"/>
               </button>
             </div>
           </div>

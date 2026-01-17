@@ -8,6 +8,7 @@ import { exportData, importData } from "../../lib/utils";
 import MenuLeft from "../icons/MenuLeft";
 import AddTab from "../icons/AddTab";
 import NavArrowDown from "../icons/NavArrowDown";
+import { useNotification } from "../../components/ui/NotificationProvider";
 import {
   SquareMenu,
   Plus,
@@ -46,6 +47,8 @@ export default function AcademicYearCard({
   const [selectedSemesters, setSelectedSemesters] = useState<Set<string>>(
     new Set()
   );
+  
+  const { notify } = useNotification();
 
   const menuRef = useRef<HTMLDivElement>(null);
   const triggerRef = useRef<HTMLButtonElement>(null);
@@ -155,12 +158,13 @@ export default function AcademicYearCard({
         Array.isArray(importedData.semesters)
       ) {
         onUpdate({ ...academicYear, ...importedData, id: academicYear.id }); // Keep ID
+        notify("Academic year imported!", "success");
       } else {
-        alert("Invalid academic year file");
+        notify("Invalid academic year file", "error");
       }
     } catch (error) {
       console.error("Import error:", error);
-      alert("Failed to import file");
+      notify("Failed to import file", "error");
     }
 
     if (fileInputRef.current) {

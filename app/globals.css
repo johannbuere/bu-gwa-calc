@@ -3,17 +3,19 @@
 :root {
   --background: #f0f8ff;
   --foreground: #1e2938;
-  --navbg : #11436b;
+  --navbg: #11436b;
   --primary: #ff5c00;
   --secondary: #2193CC;
   --accent: #FF7D33;
   --muted: #E9F4FA;
   --backup-black: #28313C;
+  --gray-border: #E1E1E1;
+  --light-gray: #F7F7F7;
 
 }
 
 @theme inline {
-  --font-sans: var(--font-inter); 
+  --font-sans: var(--font-inter);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
@@ -22,6 +24,8 @@
   --color-muted: var(--muted);
   --color-backup-black: var(--backup-black);
   --color-navbg: var(--navbg);
+  --color-gray-border: var(--gray-border);
+  --color-light-gray: var(--light-gray);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -43,12 +47,15 @@ body {
     transform: translateY(100vh) rotate(0deg);
     opacity: 0;
   }
+
   10% {
     opacity: 0.6;
   }
+
   90% {
     opacity: 0.6;
   }
+
   100% {
     transform: translateY(-100%) rotate(360deg);
     opacity: 0;
@@ -64,12 +71,15 @@ body {
     transform: translateX(-100%) rotate(0deg);
     opacity: 0;
   }
+
   10% {
     opacity: 1;
   }
+
   90% {
     opacity: 1;
   }
+
   100% {
     transform: translateX(100vw) rotate(360deg);
     opacity: 0;
