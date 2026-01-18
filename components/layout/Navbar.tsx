@@ -54,7 +54,6 @@ export default function Navbar() {
               className="hidden h-8 w-auto md:block md:h-12"
             />
           </Link>
-          <span className="text-muted text-sm font-bold">v0.2.1</span>
         </div>
 
         <div className="flex flex-row items-center gap-2">

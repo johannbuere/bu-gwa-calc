@@ -18,7 +18,6 @@ export default function Footer() {
                   height={50}
                 />
               </Link>
-              <span className="text-primary text-sm font-bold">v0.2.1</span>
             </div>
             <p className="text-base text-gray-600 mt-2 mb-6">
               An open-source GWA calculator built for Bicol University students

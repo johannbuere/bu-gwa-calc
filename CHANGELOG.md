@@ -19,6 +19,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Remove Buy Me Coffee embed
 
+## [0.6.0] - 2026-01-18
+
+### Added
+
+- Comprehensive SEO metadata including title, description, and keywords
+- Open Graph metadata for social media sharing
+- Twitter Card metadata for enhanced Twitter previews
+- Robots meta configuration for search engine indexing
+- Open Graph image for social media previews
+- Page-specific metadata for all routes (Home, About, Disclaimer, Roadmap)
+- Customized titles and descriptions for each page
+
+### Removed
+
+- Removed site version beside navbar and footer logos
+- James Doakes meme image has been removed
+
 ## [0.5.0] - 2026-01-17
 
 ### Added
@@ -134,7 +151,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial Next.js project setup with TypeScript and Tailwind CSS
 - Basic project structure and configuration files
 
-[unreleased]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.5.0...HEAD
+[unreleased]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.6.0...HEAD
+
+[0.6.0] https://github.com/johannbuere/bu-gwa-calc/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.4.0...v0.5.0
 [0.5.0]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.3.0...v0.4.0
