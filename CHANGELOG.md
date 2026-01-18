@@ -19,6 +19,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Remove Buy Me Coffee embed
 
+## [0.6.2] - 2026-01-18
+
+### Fixed
+
+- Corrected all metadata URLs from bu-gwa.vercel.app to bu-gwa-calc.vercel.app
+- Fixed Open Graph image URLs for proper social media preview display
+
 ## [0.6.1] - 2026-01-18
 
 ## Removed

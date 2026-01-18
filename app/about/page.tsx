@@ -18,11 +18,11 @@ export const metadata: Metadata = {
     title: "About - BU GWA Calculator",
     description:
       "Learn about BU GWA Calculator, an open-source tool designed to help Bicol University students calculate their General Weighted Average",
-    url: "https://bu-gwa.vercel.app/about",
+    url: "https://bu-gwa-calc.vercel.app/about",
     siteName: "BU GWA Calculator",
     images: [
       {
-        url: "https://bu-gwa.vercel.app/images/bu-gwa-calc-og.png",
+        url: "https://bu-gwa-calc.vercel.app/images/bu-gwa-calc-og.png",
         width: 1200,
         height: 630,
         alt: "BU GWA Calculator Preview Image",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     title: "About - BU GWA Calculator",
     description:
       "Learn about BU GWA Calculator, an open-source tool designed to help Bicol University students calculate their General Weighted Average",
-    images: ["https://bu-gwa.vercel.app/images/bu-gwa-calc-og.png"],
+    images: ["https://bu-gwa-calc.vercel.app/images/bu-gwa-calc-og.png"],
   },
 
   robots: {

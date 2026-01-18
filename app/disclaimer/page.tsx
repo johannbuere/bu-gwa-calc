@@ -17,11 +17,11 @@ export const metadata: Metadata = {
     title: "Disclaimer - BU GWA Calculator",
     description:
       "Important disclaimer and terms of use for BU GWA Calculator. Understand the limitations and proper use of this GWA calculation tool",
-    url: "https://bu-gwa.vercel.app/disclaimer",
+    url: "https://bu-gwa-calc.vercel.app/disclaimer",
     siteName: "BU GWA Calculator",
     images: [
       {
-        url: "https://bu-gwa.vercel.app/images/bu-gwa-calc-og.png",
+        url: "https://bu-gwa-calc.vercel.app/images/bu-gwa-calc-og.png",
         width: 1200,
         height: 630,
         alt: "BU GWA Calculator Preview Image",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: "Disclaimer - BU GWA Calculator",
     description:
       "Important disclaimer and terms of use for BU GWA Calculator. Understand the limitations and proper use of this GWA calculation tool",
-    images: ["https://bu-gwa.vercel.app/images/bu-gwa-calc-og.png"],
+    images: ["https://bu-gwa-calc.vercel.app/images/bu-gwa-calc-og.png"],
   },
 
   robots: {
