@@ -19,6 +19,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Remove Buy Me Coffee embed
 
+## [0.6.1] - 2026-01-18
+
+## Removed
+
+- Removed image folder in app directory
+
+## Changed
+
+- Added back image GWA calculator OG representation to components/directory folder
+
 ## [0.6.0] - 2026-01-18
 
 ### Added
@@ -151,9 +161,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial Next.js project setup with TypeScript and Tailwind CSS
 - Basic project structure and configuration files
 
-[unreleased]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.6.0...HEAD
-
-[0.6.0] https://github.com/johannbuere/bu-gwa-calc/compare/v0.5.0...v0.6.0
+[unreleased]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.6.1...HEAD
+[0.6.1]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.6.0...v0.6.1
+[0.6.0]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.4.0...v0.5.0
 [0.5.0]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/johannbuere/bu-gwa-calc/compare/v0.3.0...v0.4.0
